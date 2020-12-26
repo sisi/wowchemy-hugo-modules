@@ -2,3 +2,23 @@
 {{/* Instead, create a `layouts/partials/custom_js.html` file in your site and add your code to it. */}}
 
 {{/* This partial is included in `themes/academic/layouts/partials/site_js.html`. */}}
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#ffffff"
+    }
+  },
+  "content": {
+    "message": "この備忘録ではクッキー(Cookie)を使用しています。",
+    "dismiss": "了解しました",
+    "link": "詳しくはこちら",
+    "href": "https://blog.hiroki.email/post/2020-12-26-privacy-policy-blog/"
+  }
+});
+</script>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "aef4fe1447fd438e849eb05bf94c96d5"}'></script>
