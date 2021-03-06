@@ -1,87 +1,43 @@
-# Contributing to Wowchemy
+# Contributing to Academic
 
-Thanks for being interested in contributing! We’re so glad you want to help!
+For **help**, **support**, and **questions** please use our **[community chat](https://spectrum.chat/academic)**  🚑.
 
-We want contributing to Wowchemy to be fun, enjoyable, and educational for anyone and everyone. All contributions are welcome, including new plugins (such as new widgets, shortcodes, theme packs, and language packs), templates, features, documentation as well as updates and tweaks, blog posts, YouTube tutorials, live streaming customizations, meetups, and more.
+---
 
 ## Where to Start
 
-Join the **Contributing** channel on the **[community Discord](https://discord.gg/z8wNYzb)**.
-
-### For technical contributions
-
 Learn [how to contribute code on Github](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940).
 
-If you're a developer looking to contribute, but you're not sure where to begin, check out the [good first issue](https://github.com/wowchemy/wowchemy-hugo-modules/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) label on Github, which contains small tasks that have been specifically flagged as being friendly to new contributors.
+If you're a developer looking to contribute, but you're not sure where to begin, check out the [good first issue](https://github.com/gcushen/hugo-academic/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) label on Github, which contains small tasks that have been specifically flagged as being friendly to new contributors.
 
-After that, if you're looking for something a little more challenging to sink your teeth into, there's a broader [help wanted](https://github.com/wowchemy/wowchemy-hugo-modules/labels/help%20wanted) label encompassing issues which need some love.
+After that, if you're looking for something a little more challenging to sink your teeth into, there's a broader [help wanted](https://github.com/gcushen/hugo-academic/labels/help%20wanted) label encompassing issues which need some love.
 
-If you have a straightforward bug fix or improvement, feel free to contribute it in a [Pull Request](https://github.com/wowchemy/wowchemy-hugo-modules/pulls) for the community to review.
+If you have a straightforward bug fix or improvement, feel free to contribute it in a [Pull Request](https://github.com/gcushen/hugo-academic/pulls).
 
-If you have an idea for a new feature, please start by [searching the issues](https://github.com/wowchemy/wowchemy-hugo-modules/issues) to check that the feature has not already been suggested and then suggest it by [opening a new issue](https://github.com/wowchemy/wowchemy-hugo-modules/issues/new/choose), as adding new features to Wowchemy first requires some analysis around the design and spec.
+If you have an idea for a new feature, please start by [searching the issues](https://github.com/gcushen/hugo-academic/issues) to check that the feature has not already been suggested and then suggest it by [opening a new issue](https://github.com/gcushen/hugo-academic/issues/new/choose), as adding new features to Academic first requires some analysis around the design and spec.
 
-Code linting and formatting form part of the Continuous Integration process to help catch bugs and code issues in contributions.
+To contribute a **new language pack**, refer to the [language pack guide](https://sourcethemes.com/academic/docs/language/#create-or-modify-a-language-pack). Once created, place you language pack in `academic/i18n/`, add the name of the language to `academic/data/i18n/language.yaml`, and open a Pull Request on Github with these two files.
 
-Contributors can also run the flow on their fork of the "Wowchemy Hugo Modules" repo when making contributions (you'll need Node and Yarn to run):
+To contribute to **Academic Admin**, the automatic publication importer, refer to [its dedicated Github repository](https://github.com/sourcethemes/academic-admin).
 
-```sh
-yarn install
-yarn run lint
-yarn run format
-```
+## Stickers
 
-### Contribute a widget
+🖼️ [Decorate your laptop or journal with an Academic **sticker**](https://www.redbubble.com/people/neutreno/works/34387919-academic)
 
-[Create and publish your own widget](https://github.com/wowchemy/wowchemy-widget-starter)
+## Donations
 
-### Contribute a shortcode
+As a pure community-driven open source project, we welcome your support:
 
-[Create and publish your own shortcode](https://github.com/wowchemy/wowchemy-shortcode-starter)
-
-### Contribute a language pack
-
-To contribute a **new language pack** or an improvement to a language pack, refer to the [language pack guide](https://wowchemy.com/docs/language/#create-or-modify-a-language-pack). Once created, [fork Wowchemy Hugo Modules](https://github.com/wowchemy/wowchemy-hugo-modules), place your language pack in `wowchemy/i18n/`, add the name of the language to `wowchemy/data/i18n/language.yaml`, and open a Pull Request on Github with these two files.
-
-### Contribute a theme pack
-
-[View the guide](https://wowchemy.com/docs/customization/#share-your-theme) to contributing a color and font theme pack.
-
-### Contribute a template
-
-Consider forking a bare-bones template such as [Hello Starter](https://github.com/wowchemy/starter-hello-world) on GitHub and building up your own template using the Wowchemy Hugo Module. Reach out on the **Contributing** channel in Discord to submit your template.
-
-### Contribute to the Publication importer
-
-To contribute to **Hugo Academic CLI**, the automatic publication importer, refer to [its dedicated Github repository](https://github.com/wowchemy/hugo-academic-cli) and Issue queue.
-
-## Become a backer
-
-To help us develop this free software sustainably under the open source license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship:
-
-- ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-- ❤️ [**Become a sponsor and unlock awesome rewards**](https://wowchemy.com/plans/)
+  - ☕️ [**Donate a coffee**](https://paypal.me/cushen)
+  - 💵 [Become a backer on **Patreon**](https://www.patreon.com/cushen)
 
 ## Other ways to help
 
 If you're not a developer there are still plenty of ways that you can help. We always need help with:
 
-- Helping the Wowchemy community on the [chat](https://discord.gg/z8wNYzb) and [forum](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
-- Investigating and reviewing open [Issues](https://github.com/wowchemy/wowchemy-hugo-modules/issues) and [Pull Requests](https://github.com/wowchemy/wowchemy-hugo-modules/pulls)
-  - Give a thumbs up 👍 to upvote a feature request you would like to use
-- Improving the [documentation](https://wowchemy.com/docs/) and writing tutorials
-  - Just click the _Edit_ button at the bottom of pages or open an issue with your proposed improvement
+- Helping our Academic community on the [chat](https://spectrum.chat/academic)
+- Improving the [documentation](https://sourcethemes.com/academic/docs/) and writing tutorials
+  - Just click the _Edit_ button at the bottom of pages or contribute to the [documentation repository](https://github.com/sourcethemes/academic-www)
 - Testing and quality assurance
-- Hosting local Wowchemy themed events or meetups
-- Promoting Wowchemy to others by blogging, vlogging, code streaming, talking etc.
-
-## Scope
-
-Please be _mindful_ that although we encourage feature requests, we cannot expand the scope of the project in every possible direction. There will be feature requests that don't make the roadmap.
-
-Every feature requires effort not just to analyse the requirements, design it, implement it, test it, document it, merge it, write release notes for it, and release it, but also to continuously support users with it and maintain it (fixing and refactoring the feature as the project and its dependencies evolve).
-
-The more regular active volunteers (rather than one-off contributors) we have supporting users and maintaining the project, the more feasible it becomes to expand the scope of the project.
-
-The project's scope also has to be constrained so that it doesn't get too complex and unwieldy, from an architectural perspective, a testing perspective, and from a usability perspective.
-
-Plugins (widgets, shortcodes, theme packs, language packs, and third-party JavaScript integrations) as well as templates allow the community to add major features without needing to contribute to Wowchemy itself.
+- Hosting local Academic themed events or meetups
+- Promoting Academic to others by blogging, vlogging, code streaming, talking etc.
